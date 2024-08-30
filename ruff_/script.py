@@ -1,7 +1,9 @@
-def isEven(number):
-    isEven = False
-    if number % 2 == 0:
-        return True
-    else:
-        return False
+class MyClass:
+    def __init__(self, number):
+        self.number = number
+        
+    def to_power(self, n):
+        return self.number **n
+    
+    
     
